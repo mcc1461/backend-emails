@@ -13,7 +13,7 @@ app.use(bodyParser.json());
 app.use(express.json());
 
 app.get("/", (req, res) => {
-    res.send("Hello World");
+    res.send("Welcome to MusCo Blog");
 });
 
 
@@ -33,7 +33,7 @@ const transporter = nodemailer.createTransport({
 });
 
 const msg = {
-    from: `"The Express App" <theExpressApp@example.com>`, // sender address
+    from: `"MusCo Blog" <musco.blog@bloggers.com>`, // sender address
     to: `${name} <${email}>`, // list of receivers
     subject: "Welcome to the Express App", // Subject line
     text: `Hello ${name}, welcome to the Express App`, // plain text body
