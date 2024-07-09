@@ -1,9 +1,11 @@
 # MAILER
 
 $ npm init -y  //package.json
-$ npm i express nodemon //node_modules, package-lock.json
+$ npm i express dotenv
+$ npm i -D nodemon
 $ npm i nodemailer
+$ npm i body-parser
 
 create server.js
-package.json > scripts > "main": "server.js" //instead of index.js server.js is usedf
+package.json > root > "main": "server.js" //instead of index.js server.js is usedf
 package.json > scripts > "start": "nodemon"

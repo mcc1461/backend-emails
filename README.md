@@ -1,1 +1,3 @@
-# backend-emails
+# BACKEND - EMAILS / nodemailer
+
+.
