@@ -38,12 +38,14 @@ backend-emails
 
 Create a `.env` file in the root directory with the following:
 
+```bash
 MAIL_SERVICE=gmail
 MAIL_HOST=smtp.gmail.com
 MAIL_PORT=587
 MAIL_USER=<your_email@gmail.com>
 MAIL_PASS=your_email_password
 PORT=3007
+```
 
 ## Getting Started
 
