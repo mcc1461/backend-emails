@@ -23,6 +23,7 @@ This project demonstrates the implementation of an email notification system usi
 
 ## Project Structure
 
+```bash
 backend-emails
 ├── .env
 ├── MusCo.png
@@ -31,6 +32,7 @@ backend-emails
 ├── mail.js
 ├── package.json
 └── server.js
+```
 
 ## Environment Variables
 
@@ -73,6 +75,8 @@ Send a GET request to /email-send to trigger the email sending functionality, wh
 <http://localhost:3007/email-send>
 
 ## License
+
+[MIT](https://choosealicense.com/licenses/mit/)
 
 This project is licensed under the MIT License.
 
